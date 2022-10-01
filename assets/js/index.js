@@ -303,8 +303,8 @@ form.onsubmit = async (e) => {
         data,
         inlineList,
         words.value,
-        wordsListData[words.value].post[Number(post_office.value)],
-        wordsListData[words.value].village[Number(village.value)],
+        wordsListData[words.value].post[Number(post_office.value)] ? wordsListData[words.value].post[Number(post_office.value)]: "",
+        wordsListData[words.value].village[Number(village.value)] ? wordsListData[words.value].village[Number(village.value)] : "",
       ],
     },
     (d) => {
