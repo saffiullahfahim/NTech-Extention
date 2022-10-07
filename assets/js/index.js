@@ -50,173 +50,234 @@ const data = {
 };
 
 const wordsListData = {
-  0: { post: [] , village: []},
+  0: { post: [], village: [] },
   26131: {
     post: [
       {
-        en: "Bagra Bazar1 - 3600",
-        bn: "বাঘরা বাজার - 3600",
+        bn: "সাহেব বাজার",
+        en: "Shaheb Bazar",
         word: {
           en: "01",
           bn: "০১",
         },
       },
     ],
-    village:[
+    village: [
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+    ],
   },
   26132: {
     post: [
       {
-        en: "Bagra Bazar2 - 3600",
-        bn: "বাঘরা বাজার২ - 3600",
+        bn: "সাহেব বাজার",
+        en: "Shaheb Bazar",
         word: {
           en: "02",
           bn: "০২",
         },
       },
     ],
-    village:[
+    village: [
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+    ],
   },
   26133: {
     post: [
       {
-        en: "Bagra Bazar3 - 3600",
-        bn: "বাঘরা বাজার৩ - 3600",
+        bn: "সাহেব বাজার",
+        en: "Shaheb Bazar",
         word: {
           en: "03",
           bn: "০৩",
         },
       },
     ],
-    village:[
+    village: [
       {
-        en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        en: "West Shokdi",
+        bn: "পশ্চিম সকদী",
+      },
+    ],
   },
   26134: {
     post: [
       {
-        en: "Bagra Bazar4 - 3600",
-        bn: "বাঘরা বাজার৪ - 3600",
+        en: "Darussalam",
+        bn: "দারুসসালাম",
         word: {
           en: "04",
           bn: "০৪",
         },
       },
     ],
-    village:[
+    village: [
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+      {
+        en: "Nizgastola",
+        bn: "নিজগাছতলা",
+      },
+      {
+        en: "Niz Gachtola",
+        bn: "নিজ গাছতলা",
+      },
+    ],
   },
   26135: {
     post: [
       {
-        en: "Bagra Bazar5 - 3600",
-        bn: "বাঘরা বাজার৫ - 3600",
+        en: "Darussalam",
+        bn: "দারুসসালাম",
         word: {
           en: "05",
           bn: "০৫",
         },
       },
     ],
-    village:[
+    village: [
       {
-        en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        en: "Niz Gastola",
+        bn: "নিজগাছতলা",
+      },
+      {
+        en: "Nizgastola",
+        bn: "নিজগাছতলা",
+      },
+      {
+        en: "Islampur Gastola",
+        bn: "ইসলামপুর গাছতলা",
+      },
+      {
+        en: "Mohadeb Gastola",
+        bn: "মহাদেব গাছতলা",
+      },
+    ],
   },
   26136: {
     post: [
       {
-        en: "Bagra Bazar6 - 3600",
-        bn: "বাঘরা বাজার৬ - 3600",
+        en: "Bagra Bazar",
+        bn: "বাঘরা বাজার",
         word: {
           en: "06",
           bn: "০৬",
         },
       },
     ],
-    village:[
+    village: [
       {
-        en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        en: "Nanupur",
+        bn: "নানুপুর",
+      },
+    ],
   },
   26137: {
     post: [
       {
-        en: "Bagra Bazar7 - 3600",
-        bn: "বাঘরা বাজার৭ - 3600",
+        en: "Bagra Bazar",
+        bn: "বাঘরা বাজার",
         word: {
           en: "07",
           bn: "০৭",
         },
       },
     ],
-    village:[
+    village: [
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+      {
+        en: "Sobanpur",
+        bn: "ছোবানপুর",
+      },
+      {
+        en: "Sobanpur",
+        bn: "ছোবহানপুর",
+      },
+    ],
   },
   26138: {
     post: [
       {
-        en: "Bagra Bazar8 - 3600",
-        bn: "বাঘরা বাজার৮ - 3600",
+        en: "Bagra Bazar",
+        bn: "বাঘরা বাজার",
         word: {
           en: "08",
           bn: "০৮",
         },
       },
     ],
-    village:[
+    village: [
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+      {
+        en: "South Bagadi",
+        bn: "দক্ষিণ বাগাদী",
+      },
+      {
+        en: "Pakkhidiya",
+        bn: "পক্ষীদিয়া",
+      },
+    ],
   },
   26139: {
     post: [
       {
-        en: "Bagra Bazar9 - 3600",
-        bn: "বাঘরা বাজার৯ - 3600",
+        en: "Bagra Bazar",
+        bn: "বাঘরা বাজার",
         word: {
           en: "09",
           bn: "০৯",
         },
       },
     ],
-    village:[
+    village: [
+      {
+        en: "Brahman Sakhua",
+        bn: "ব্রাহ্মণ সাখুয়া",
+      },
       {
         en: "Bagadi",
-        bn: "বাগাদী"
-      }
-    ]
+        bn: "বাগাদী",
+      },
+    ],
   },
 };
 
-// <option value="1464" data-id="1464" data-name-bn="বাগাদী" data-name-en="Baghadi" data-geo-level-id="5" data-parent-geo-id="130">বাগাদী</option>
+const testFun = (data) => {
+  console.log(data)
+}
 
+let b  = document.querySelector("img");
+console.log(b)
+b.onclick = async () => {
+  console.log(1234)
+  let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  chrome.scripting.executeScript(
+    {
+      target: { tabId: tab.id },
+      function: testFun,
+      args: [123456],
+    },
+    (d) => {
+      //window.close();
+    }
+  );
+}
+
+// <option value="1464" data-id="1464" data-name-bn="বাগাদী" data-name-en="Baghadi" data-geo-level-id="5" data-parent-geo-id="130">বাগাদী</option>
+/*
 const inlineList = [
   "colDist",
   "colCityCorpCantOrUpazila",
@@ -303,8 +364,12 @@ form.onsubmit = async (e) => {
         data,
         inlineList,
         words.value,
-        wordsListData[words.value].post[Number(post_office.value)] ? wordsListData[words.value].post[Number(post_office.value)]: "",
-        wordsListData[words.value].village[Number(village.value)] ? wordsListData[words.value].village[Number(village.value)] : "",
+        wordsListData[words.value].post[Number(post_office.value)]
+          ? wordsListData[words.value].post[Number(post_office.value)]
+          : "",
+        wordsListData[words.value].village[Number(village.value)]
+          ? wordsListData[words.value].village[Number(village.value)]
+          : "",
       ],
     },
     (d) => {
@@ -343,11 +408,15 @@ const submitFuntion = (data, inlineList, words, post_office, village) => {
         ).value = `ডাকঘরঃ ${post_office.bn}, ওয়ার্ড নংঃ ${post_office.word.bn} `;
         document.querySelector(
           "#birthPlacePostOfcEn"
-        ).value = `Post Office: ${post_office.en}, Word No: ${post_office.word.en} `;
+        ).value = `POST OFFICE: ${post_office.en.toUpperCase()}, WORD NO: ${post_office.word.en.toUpperCase()} `;
       }
-      if(village){
-        document.querySelector("#birthPlaceVilAreaTownBn").value = `গ্রামঃ ${village.bn}, `;
-        document.querySelector("#birthPlaceVilAreaTownEn").value = `Village: ${village.en}, `
+      if (village) {
+        document.querySelector(
+          "#birthPlaceVilAreaTownBn"
+        ).value = `গ্রামঃ ${village.bn.toUpperCase()}, `;
+        document.querySelector(
+          "#birthPlaceVilAreaTownEn"
+        ).value = `Village: ${village.en.toUpperCase()}, `;
       }
 
       document.querySelector("#birthPlaceHouseRoadBn").value = " ";
@@ -359,3 +428,4 @@ const submitFuntion = (data, inlineList, words, post_office, village) => {
     document.querySelector(`.${x}`).style.display = "";
   }
 };
+*/
