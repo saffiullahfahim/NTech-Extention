@@ -259,25 +259,25 @@ const testFun = (data) => {
   console.log(data)
 }
 
-let b  = document.querySelector("img");
-console.log(b)
-b.onclick = async () => {
-  console.log(1234)
-  let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  chrome.scripting.executeScript(
-    {
-      target: { tabId: tab.id },
-      function: testFun,
-      args: [123456],
-    },
-    (d) => {
-      //window.close();
-    }
-  );
-}
+// let b  = document.querySelector("img");
+// console.log(b)
+// b.onclick = async () => {
+//   console.log(1234)
+//   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+//   chrome.scripting.executeScript(
+//     {
+//       target: { tabId: tab.id },
+//       function: testFun,
+//       args: [123456],
+//     },
+//     (d) => {
+//       //window.close();
+//     }
+//   );
+// }
 
 // <option value="1464" data-id="1464" data-name-bn="বাগাদী" data-name-en="Baghadi" data-geo-level-id="5" data-parent-geo-id="130">বাগাদী</option>
-/*
+
 const inlineList = [
   "colDist",
   "colCityCorpCantOrUpazila",
@@ -428,4 +428,3 @@ const submitFuntion = (data, inlineList, words, post_office, village) => {
     document.querySelector(`.${x}`).style.display = "";
   }
 };
-*/

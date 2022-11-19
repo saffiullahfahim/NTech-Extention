@@ -406,7 +406,11 @@ const files = {
     div.id = "root";
     document.querySelector("#ntech-extention").before(div);
 
-    dom.render("root", test)
+    dom.render("root", test);
+
+    dom.get("https://saffiullahfahim.me/").then(res => {
+      console.log(res)
+    })
   `,
 };
 //   let d = `
@@ -472,7 +476,7 @@ const files = {
 
 // getTheFile()
 
-let loading = `<div class="loading">
+let loading = `Checking Update<div class="loading">
 <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -617,8 +621,8 @@ b.onclick = async () => {
       args: [data],
     },
     (d) => {
-      // console.log(d)
-      window.close();
+      console.log(d)
+      //window.close();
     }
   );
 };
