@@ -1,9 +1,24 @@
 {
-  "name": "NTech BDRIS Extension",
-  "description": "BDRIS Extension for auto complete, reduce image, auto save and offline mode!",
-  "version": "1.0",
+  "name": "NTech",
+  "description": "NTech Extension for automation and mannagement.",
+  "version": "0.0.1",
   "manifest_version": 3,
   "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "js": ["test.js"],
+      "run_at": "document_start",
+      "matches": ["<all_urls>"],
+      "type": "module"
+    },
+    {
+      "css": ["test.css"],
+      "run_at": "document_start",
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "offline_enabled": true,
   "action": {
     "default_popup": "index.html",
     "default_icon": {
