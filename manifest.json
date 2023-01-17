@@ -1,20 +1,20 @@
 {
   "name": "NTech",
   "description": "NTech Extension for automation and mannagement.",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "manifest_version": 3,
-  "permissions": ["storage", "activeTab", "scripting", "nativeMessaging"],
+  "permissions": ["tabs", "storage", "activeTab", "scripting", "nativeMessaging"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
     {
-      "css": ["test.css"],
-      "run_at": "document_start",
-      "matches": ["<all_urls>"]
+      "matches": ["<all_urls>"],
+      "js": ["bundler.js", "ntech.js"],
+      "run_at": "document_end"
     }
   ],
   "offline_enabled": true,
   "action": {
-    "default_popup": "qr.html",
+    "default_popup": "index.html",
     "default_icon": {
       "16": "/assets/images/icon16.png",
       "32": "/assets/images/icon32.png",
@@ -27,8 +27,5 @@
     "32": "/assets/images/icon32.png",
     "48": "/assets/images/icon48.png",
     "128": "/assets/images/icon128.png"
-  },
-  "chrome_url_overrides": {
-    "newtab": "qr.html"
   }
 }

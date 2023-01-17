@@ -428,3 +428,14 @@ const submitFuntion = (data, inlineList, words, post_office, village) => {
     document.querySelector(`.${x}`).style.display = "";
   }
 };
+
+// In the first tab
+chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+  chrome.tabs.sendMessage(tabs[0].id, { message: 'Hello from tab 1' });
+});
+
+// console.log()
+// In the second tab
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+  console.log('Message from tab 1:', request.message);
+});
