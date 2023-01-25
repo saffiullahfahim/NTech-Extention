@@ -165,6 +165,9 @@ const createPdf2 = async (obj, pdf) => {
 
   const page = pdfDoc.addPage();
 
+  page.setLineHeight(15)
+
+
   for (let key in obj) {
     page.drawText(key, {
       x: 50,
@@ -188,8 +191,14 @@ const createPdf2 = async (obj, pdf) => {
     });
 
     console.log(p)
+    
+    let count = obj[key].match("\n");
 
-    initY += maxH + 10;
+    count = count ? count.length: count
+
+    console.log(count)
+
+    initY += (maxH * (count + 1)) - maxH/2 + 18;
   }
 
   console.log(page);
@@ -209,7 +218,7 @@ const createPdf2 = async (obj, pdf) => {
   return pdfBytes;
 };
 
-for(let x = 0; x < 50; x++){
+for(let x = 0; x < 20; x++){
   obj[new Date().getTime() + x] = breakLine(x + " This sflsdfsd fsldkfjsd fsdfljsd fsdfjsldf sdfjsdf is date" + new Date().toISOString())
 }
 

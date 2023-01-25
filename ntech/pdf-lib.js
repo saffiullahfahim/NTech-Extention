@@ -2,7 +2,13 @@ import {PDFDocument, StandardFonts, PageSizes, degrees, grayscale, rgb} from "pd
 
 const pdfDoc = await PDFDocument.create();
 
+const helvetica = await pdfDoc.embedFont(StandardFonts.Helvetica);
+const helveticaBold = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
+
+helvetica.sizeAtHeight()
 const page = pdfDoc.addPage(PageSizes.A4);
+
+page.setLineHeight(10)
 
 page.drawRectangle({
   x: 25,
