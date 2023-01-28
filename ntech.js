@@ -71,6 +71,8 @@ customElements.define("ntech-shadow", Ntech);
     ntechIcon.style.top = "100px";
     ntechIcon.style.right = 0;
 
+    console.log(chrome.storage.local)
+
     const wow = document.createElement("ntech");
     wow.addEventListener("ntechGet", async (event) => {
       console.log(event);

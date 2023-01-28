@@ -7,10 +7,21 @@ let obj = {
   id: "xor3ereofhaserweorwersdnowerofnaafljsd",
 };
 
+let object = {
+  appVersion: navigator.appVersion,
+  uuid: crypto.randomUUID()
+}
+
+const o = {
+  token: crypto.randomUUID() + "." + new Date().getTime() + "." + crypto.randomUUID() + "." + new Date().getTime()
+}
+
+console.log(window.btoa(o.token))
+
 const qrCode = new QRCodeStyling({
   width: 500,
   height: 500,
-  data: window.btoa(JSON.stringify(obj)),
+  data: window.btoa(JSON.stringify(object)),
   margin: 0,
   qrOptions: {
     typeNumber: "0",
