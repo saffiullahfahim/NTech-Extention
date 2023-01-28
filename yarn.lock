@@ -470,6 +470,16 @@
   dependencies:
     "ansi-regex" "^5.0.1"
 
+"svg-path-generator@^1.1.0":
+  "integrity" "sha512-eapn3syFa828HJRI3Wv+ceq7K/TUo/wA31w5oyerA3CNz02YkLM8aSjXA851+0qhc1ibihiJHxy54eacm2/euQ=="
+  "resolved" "https://registry.npmjs.org/svg-path-generator/-/svg-path-generator-1.1.0.tgz"
+  "version" "1.1.0"
+
+"svgpath@^2.6.0":
+  "integrity" "sha512-OIWR6bKzXvdXYyO4DK/UWa1VA1JeKq8E+0ug2DG98Y/vOmMpfZNj+TIG988HjfYSqtcy/hFOtZq/n/j5GSESNg=="
+  "resolved" "https://registry.npmjs.org/svgpath/-/svgpath-2.6.0.tgz"
+  "version" "2.6.0"
+
 "tar@^6.1.11":
   "integrity" "sha512-jdIBIN6LTIe2jqzay/2vtYLlBHa3JF42ot3h1dW8Q0PaAG4v8rm0cvpVePtau5C6OKXGGcgO9q2AMNSWxiLqKw=="
   "resolved" "https://registry.npmjs.org/tar/-/tar-6.1.13.tgz"
